@@ -6,8 +6,10 @@ package chloeGame;
 public class FightGame {
     public static void main(String[] args){
         Fighter king = new King();
+        king.fight();
         king.fighting();
         king.setWeapon(new KnifeBehavior());
         king.fighting();
+        Boss.getUniqueInstance();
     }
 }

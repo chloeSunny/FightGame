@@ -6,7 +6,7 @@ package chloeGame;
 public abstract class Fighter {
     WeaponBehavior weapon;
 
-    public void Character(){
+    public void fighter(){
         }
 
     public abstract void fight();
